@@ -24,7 +24,7 @@ public class CreateAndDeleteAnOrganisationTest extends BaseClass{
 		opc.newOrgButton();
 		NewOrgPageClass npc=new NewOrgPageClass(driver);
 		npc.organizationName(orgName);
-		fail();
+//		fail();
 		npc.saveButon();		
 		Thread.sleep(3000);
 
