@@ -2,16 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-31T16:14:01 IST" name="Default suite" finished-at="2023-03-31T16:14:02 IST" duration-ms="51">
+  <suite started-at="2023-04-04T12:19:53 IST" name="Default suite" finished-at="2023-04-04T12:20:12 IST" duration-ms="19391">
     <groups>
     </groups>
-    <test started-at="2023-03-31T16:14:01 IST" name="Default test" finished-at="2023-03-31T16:14:02 IST" duration-ms="51">
-      <class name="testAnnotations.PassParameter">
-        <test-method signature="runParameterTest()[pri:0, instance:testAnnotations.PassParameter@3ee37e5a]" started-at="2023-03-31T16:14:01 IST" name="runParameterTest" finished-at="2023-03-31T16:14:02 IST" duration-ms="11" status="PASS">
+    <test started-at="2023-04-04T12:19:53 IST" name="Default test" finished-at="2023-04-04T12:20:12 IST" duration-ms="19391">
+      <class name="practice.Chromeoptionss">
+        <test-method is-config="true" signature="creConwithDataBase()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:19:53 IST" name="creConwithDataBase" finished-at="2023-04-04T12:19:53 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runParameterTest -->
-      </class> <!-- testAnnotations.PassParameter -->
+        </test-method> <!-- creConwithDataBase -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:19:53 IST" name="openBrowser" finished-at="2023-04-04T12:19:57 IST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:19:57 IST" name="login" finished-at="2023-04-04T12:20:04 IST" duration-ms="7774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="chromeOptions()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:20:04 IST" name="chromeOptions" finished-at="2023-04-04T12:20:04 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeOptions -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:20:04 IST" name="logout" finished-at="2023-04-04T12:20:12 IST" duration-ms="7610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBroser()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:20:12 IST" name="closeBroser" finished-at="2023-04-04T12:20:12 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+        <test-method is-config="true" signature="closeConnWithDB()[pri:0, instance:practice.Chromeoptionss@6574a52c]" started-at="2023-04-04T12:20:12 IST" name="closeConnWithDB" finished-at="2023-04-04T12:20:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnWithDB -->
+      </class> <!-- practice.Chromeoptionss -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

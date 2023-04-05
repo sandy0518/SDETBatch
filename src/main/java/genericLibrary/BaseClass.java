@@ -24,6 +24,7 @@ public class BaseClass {
 	public JSONFileUtility jfu=new JSONFileUtility();
 	public WebDriver driver;
 	public static WebDriver sdriver;
+	public ChromeOptions co;
 	
 //	@BeforeSuite is used to create connection with Database
 	@BeforeSuite (groups = {"smoke", "regression"})
@@ -39,8 +40,11 @@ public class BaseClass {
 		System.out.println("========== Openning Browser===========");
 		String Browser = pfu.readDataFromPropertyFile("browser");
 		if(Browser.equalsIgnoreCase("chrome")) {
-			ChromeOptions co=new ChromeOptions();
+			co=new ChromeOptions();
 			co.addArguments("--remote-allow-origins=*");
+//			co.addArguments("--incognito");
+//			co.addArguments("--headless");
+//			co.addArguments("window-size=640,400");
 			driver=new ChromeDriver(co);
 		}
 		else {
