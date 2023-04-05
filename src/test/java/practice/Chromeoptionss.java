@@ -8,8 +8,5 @@ public class Chromeoptionss extends BaseClass{
 	@Test
 	public void chromeOptions() {
 		System.out.println("=========== Headless Mode Executed ============");
-		
-		
-		
 	}
 }
