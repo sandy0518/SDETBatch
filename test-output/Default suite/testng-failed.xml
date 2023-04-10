@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.Chromeoptionss">
+      <class name="sampleScripts.AllLinks">
         <methods>
-          <include name="chromeOptions"/>
           <include name="logout"/>
           <include name="closeConnWithDB"/>
           <include name="login"/>
           <include name="creConwithDataBase"/>
+          <include name="allLinks"/>
           <include name="closeBroser"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- practice.Chromeoptionss -->
+      </class> <!-- sampleScripts.AllLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
